@@ -10,7 +10,7 @@ for (const [, target] of html.matchAll(/\b(?:src|href)="([^"]+)"/g)) {
   if (target.startsWith('#')) { if (!ids.includes(target.slice(1))) throw new Error(`Missing anchor: ${target}`); }
   else if (target.startsWith('./')) await stat(resolve(root, target));
 }
-for (const id of ['part1', 'part2', 'part3', 'part4', 'home', 'overview', 'objectives', 'experiments', 'results', 'questions', 'conclusion']) if (!ids.includes(id)) throw new Error(`Missing required section: ${id}`);
+for (const id of ['part1', 'part2', 'part4', 'home', 'overview', 'objectives', 'experiments', 'results', 'questions', 'conclusion']) if (!ids.includes(id)) throw new Error(`Missing required section: ${id}`);
 if ((html.match(/class="qa-number"/g) || []).length !== 5) throw new Error('All five handout questions are required');
 for (const file of ['app.js', 'worker.js', 'processing.js', 'site-config.js', 'scripts/serve.mjs', 'scripts/check.mjs']) {
   const result = spawnSync(process.execPath, ['--check', resolve(root, file)], { encoding: 'utf8' });
