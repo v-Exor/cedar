@@ -1,9 +1,9 @@
 # Laboratory 3 publication and compilation integration
 
-Repository: https://github.com/v-Exor/LabAct3_CSST106
+Repository: https://github.com/v-Exor/cedar
 
 Website address (available after a successful Pages deployment):
-https://v-exor.github.io/LabAct3_CSST106/
+https://v-exor.github.io/cedar/
 
 Publishing source: GitHub Actions. The workflow at `.github/workflows/pages.yml`
 checks the source and verifies numerical fixtures before publishing the static
@@ -14,13 +14,13 @@ website. Push changes to `main` to deploy future updates.
 Set the compilation website's Laboratory Activity 3 button/link destination to:
 
 ```text
-https://v-exor.github.io/LabAct3_CSST106/
+https://v-exor.github.io/cedar/
 ```
 
 For a plain HTML compilation page, use:
 
 ```html
-<a href="https://v-exor.github.io/LabAct3_CSST106/"
+<a href="https://v-exor.github.io/cedar/"
    target="_blank" rel="noopener noreferrer">
   Open Laboratory Activity 3
 </a>

@@ -91,7 +91,7 @@ Alternative: deploy from a branch using `main / (root)`. Remove/disable the
 included custom deployment workflow before choosing this alternative, so there
 is one publishing mechanism. All URLs are relative and work with either method.
 
-The project repository is [v-Exor/LabAct3_CSST106](https://github.com/v-Exor/LabAct3_CSST106).
+The project repository is [v-Exor/cedar](https://github.com/v-Exor/cedar).
 GitHub Pages is configured to publish through the included Actions workflow.
 See `DEPLOYMENT.md` for the website address and compilation integration.
 
