@@ -91,8 +91,9 @@ Alternative: deploy from a branch using `main / (root)`. Remove/disable the
 included custom deployment workflow before choosing this alternative, so there
 is one publishing mechanism. All URLs are relative and work with either method.
 
-This project has **not** created, pushed, overwritten or published any remote
-repository. A real public URL becomes available only after you deploy it.
+The project repository is [v-Exor/LabAct3_CSST106](https://github.com/v-Exor/LabAct3_CSST106).
+GitHub Pages is configured to publish through the included Actions workflow.
+See `DEPLOYMENT.md` for the website address and compilation integration.
 
 ## Tests and development
 
